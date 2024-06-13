@@ -42,6 +42,7 @@ const randomImges = [
 
 import { MdOutlineRateReview } from "react-icons/md";
 import ReviewSlider from "../components/common/ReviewSlider";
+import Footer from "../components/common/Footer";
 
 function HomePage() {
   const [backgroundImg, setBackgroundImg] = useState(null);
@@ -244,8 +245,9 @@ function HomePage() {
             Reviews from other learners
             <MdOutlineRateReview className=" text-yellow-25" />
           </h1>
-        <ReviewSlider />
+          <ReviewSlider />
         </div>
+        <Footer />
       </div>
     </React.Fragment>
   );
